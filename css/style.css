@@ -64,23 +64,25 @@ body {
   max-width: 1170px;
   margin: 0 auto; }
 
-.header__body {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px; }
-.header__logo {
-  flex: 0 0 17px; }
-.header__menu {
-  display: flex; }
-  .header__menu li {
-    padding: 5px 15px; }
-    .header__menu li a {
-      text-decoration: none;
-      color: #000;
-      font-size: 18px; }
-    .header__menu li a:hover {
-      color: blue; }
+.header {
+  background-color: #eee; }
+  .header__body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px; }
+  .header__logo {
+    flex: 0 0 172px; }
+  .header__menu {
+    display: flex; }
+    .header__menu li {
+      padding: 5px 15px; }
+      .header__menu li a {
+        text-decoration: none;
+        color: #000;
+        font-size: 18px; }
+      .header__menu li a:hover {
+        color: blue; }
 
 .content {
   margin: 30px 0;
@@ -90,8 +92,21 @@ body {
   .content__title {
     text-align: center; }
 
-.footer__info {
-  margin: 30px 0;
-  text-align: center; }
+.footer {
+  background-color: #eee; }
+  .footer__info {
+    margin: 30px 0;
+    text-align: center; }
+
+/* ---------------------------------------------------lesson 1 ------*/
+.multitable__body {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px; }
+  .multitable__body .multitable__item {
+    padding: 10px;
+    width: calc(20% - 2px);
+    border: 1px solid #ccc;
+    text-align: center; }
 
 /*# sourceMappingURL=style.css.map */

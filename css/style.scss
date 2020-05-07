@@ -8,6 +8,7 @@ body{
   margin: 0 auto;
 }
 .header {
+  background-color: #eee;
   &__body {
     display: flex;
     justify-content: space-between;
@@ -16,7 +17,7 @@ body{
   }
 
   &__logo{
-    flex: 0 0 17px;
+    flex: 0 0 172px;
   }
   &__nav {
   }
@@ -48,9 +49,24 @@ body{
 }
 
 .footer {
+  background-color: #eee;
 
+  &__info {
+    margin: 30px 0;
+    text-align: center;
+  }
 }
-.footer__info {
-  margin: 30px 0;
-  text-align: center;
+/* ---------------------------------------------------lesson 1 ------*/
+.multitable__body {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+
+  .multitable__item {
+    padding: 10px;
+    width: calc(20% - 2px);
+    border: 1px solid #ccc;
+    text-align: center;
+  }
 }
+
