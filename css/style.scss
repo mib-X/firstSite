@@ -75,3 +75,33 @@ body{
 .green {color:green;}
 .yellow {color:yellow;}
 .blue {color:blue;}
+
+/*---------------------------------------------lesson 3-------------------*/
+.output {
+  font-size: 20px;
+  padding: 50px;
+  text-align: center;
+}
+form.main-form {
+  margin: 30px 0;
+  font-size: 18px;
+  label {
+    input#string.main-form__input {
+      border: 1px solid orange;
+      border-radius: 5px;
+      padding: 5px 10px;
+      font-size: 22px;
+      line-height: 26px;
+    }
+  }
+}
+.btn {
+  display: inline-block;
+  background-color: rgba(255,255,255, 0.2);
+  border: 1px solid orange;
+  font-size: 22px;
+  line-height: 26px;
+  border-radius: 3px;
+  padding: 5px 15px;
+  margin: 30px 0 0 0;
+}
